@@ -62,6 +62,6 @@ async function parseXMLFromURL(url) {
 }
 
 // Тестировал для себя
-// parseXMLFromURL().then((data) => {
-//     console.log(data);
-// });
+parseXMLFromURL().then((data) => {
+    console.log(data);
+});
